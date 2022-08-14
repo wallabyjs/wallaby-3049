@@ -2,4 +2,6 @@
 
 ## setup
 
-1. pnpm install
+1. git clone git@github.com:bhvngt/wallabyjs-pnpm-workspace-vitest.git
+2. cd wallabyjs-pnpm-workspace-vitest
+3. pnpm install
