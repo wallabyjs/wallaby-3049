@@ -1,0 +1,24 @@
+{
+  "name": "@libs/bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./package.json": "./package.json",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@libs/foo": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^0.21.1",
+    "typescript": "^4.7.4"
+  }
+}
