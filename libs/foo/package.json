@@ -15,6 +15,7 @@
     "./*": "./src/*.ts"
   },
   "dependencies": {
+    "@libs/foo": "workspace:*",
     "@libs/bar": "workspace:*",
     "rxjs": "^7.5.6"
   },
