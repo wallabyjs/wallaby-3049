@@ -11,6 +11,7 @@ describe('foo', () => {
         expect(foo).to.be.eql("FOO")
         expect(bar).to.be.eql("BAR");
         expect(globalThis.crypto).to.be.not.undefined;
+        globalThis.crypto.randomUUID();//?
     })
 
     it("rxjs", async () => {
